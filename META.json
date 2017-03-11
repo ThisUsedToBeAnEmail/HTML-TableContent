@@ -1,0 +1,87 @@
+{
+   "abstract" : "unknown",
+   "author" : [
+      "LNATION <thisusedtobeanemail@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.1001, CPAN::Meta::Converter version 2.150005",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTML-TableContent",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "Module::Metadata" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "1.22",
+            "HTML::Parser" : "3.71",
+            "Moo" : "1.001001",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "HTML::TableContent" : {
+         "file" : "lib/HTML/TableContent.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Element" : {
+         "file" : "lib/HTML/TableContent/Element.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Parser" : {
+         "file" : "lib/HTML/TableContent/Parser.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Table" : {
+         "file" : "lib/HTML/TableContent/Table.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Table::Caption" : {
+         "file" : "lib/HTML/TableContent/Table/Caption.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Table::Header" : {
+         "file" : "lib/HTML/TableContent/Table/Header.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Table::Row" : {
+         "file" : "lib/HTML/TableContent/Table/Row.pm",
+         "version" : "0.06"
+      },
+      "HTML::TableContent::Table::Row::Cell" : {
+         "file" : "lib/HTML/TableContent/Table/Row/Cell.pm",
+         "version" : "0.06"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/ThisUsedToBeAnEmail/HTML-TableContent.git",
+         "web" : "https://github.com/ThisUsedToBeAnEmail/HTML-TableContent"
+      }
+   },
+   "version" : "0.06",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
+}
